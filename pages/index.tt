@@ -1,0 +1,5 @@
+[% WRAPPER wrapper.tt %]  
+  <section id="home">
+    <div class="container"></div>
+  </section>
+[% END %]

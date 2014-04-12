@@ -1,0 +1,34 @@
+[% WRAPPER wrapper.tt %]  
+<section id="documentation">
+  <div class="container">
+    <h1>Documentation</h1>
+    <p>The core documentation for DBIC can be found in POD, the standard for Perl documentation. This can be accessed through a 
+nu of channels, including the perldoc utility and online on the CPAN website.</p>
+    <ul>
+      <li class="intro">
+        <a href="https://metacpan.org/module/DBIx::Class" title="Introduction">
+          <span class="icon"></span> Introduction
+        </a>
+      </li>
+      <li class="manual">
+        <a href="https://metacpan.org/module/DBIx::Class::Manual" title="Manual">
+          <span class="icon"></span> Manual
+        </a>
+      </li>
+      <li class="intro">
+        <a href="https://metacpan.org/module/DBIx::Class::Manual::Cookbook" title="Cookbook">
+          <span class="icon"></span> Cookbook
+        </a>
+      </li>
+      <li class="map">
+        <a href="https://metacpan.org/module/DBIx::Class::Manual::DocMap" title="Documentation map">
+          <span class="icon"></span> Documentation map
+        </a>
+      </li>
+    </ul>
+  </div>
+</section>
+
+[% INCLUDE articles.tt %]
+
+[% END %]

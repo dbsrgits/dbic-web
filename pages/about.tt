@@ -1,0 +1,35 @@
+[% WRAPPER wrapper.tt %]
+<section id="about">
+  <div class="container">
+    <div class="info">
+      <h3>WHAT IS <strong style="text-transform: none">DBIx::Class</strong> ?</h3>
+      <hr/>
+      <p>DBIx::Class (also known as DBIC) is an <strong>extensible</strong> and <strong>flexible</strong> Object/Relational Mapper (ORM) written in Perl. ORMs speed development, abstract data and make it 
+pole, allow you to represent your business rules through OO code and generate boilerplate code for CRUD operations.</p>
+    </div>
+    <ul>
+      <li>Write complex SQL queries in Perl code</li>
+      <li><a href="https://metacpan.org/module/DBIx::Class::Manual::Intro#Using-DBIx::Class::Schema::Loader" title="Generate classes">Generate classes</a> from your database structure</li>
+      <li>Write your classes <a href="https://metacpan.org/module/DBIx::Class::Manual::Intro#Setting-it-up-manually" title="Setting it up manually">manually</a></li>
+      <li>Get a <a href="https://metacpan.org/module/DBIx::Class::InflateColumn::DateTime" title="DateTime object">DateTime object</a> when you are dealing with a time based column</li>
+      <li>Get an <a href="https://metacpan.org/module/Catalyst::Plugin::AutoCRUD" title="AJAX Interface">Ajax interface</a> to your database - automatically</li>
+    </ul>
+    <div class="more-container">
+      <div class="more">
+        <div class="block-one">
+          <h1>Getting started</h1>
+          <p>If you would like to read more about DBIC we reccomend you start with the <a href="documentation.html" title="Documentation">documentation</a> and join <a href="support.html" title="Community">the community</a>.</p>
+        </div>
+        <div class="block-two"> 
+        </div>
+        <div class="block-three">
+          <h3>Supporting <span>projects</span></h3>
+          <hr/>
+          <p>DBIC is an <a href="http://www.enlightenedperl.org/project.html">Enlightened Perl Organisation supported project</a>.</p>
+        </div>
+      </div>
+      <span class="monkey"><span></span></span>
+    </div>
+  </div>
+</section>
+[% END %]

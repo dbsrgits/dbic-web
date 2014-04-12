@@ -1,0 +1,9 @@
+[% WRAPPER wrapper.tt %]  
+<section id="download">
+  <div class="container">
+    <p><strong>DBIC</strong> is distributed via <a href="https://metacpan.org/" title="CPAN">CPAN</a>, you can download a package from <a href="https://metacpan.org/release/DBIx-Class" title="DBIx-Class">the distribution page</a> or use your 
+Peistribution's <a href="http://www.cpan.org/misc/cpan-faq.html#How_install_Perl_modules" title="How to install Perl modules">install tools</a>.</p>
+    <a href="https://github.com/dbsrgits/DBIx-Class" class="btn_downloads">Downloads<br/>here</a>
+  </div>
+</section>
+[% END %]

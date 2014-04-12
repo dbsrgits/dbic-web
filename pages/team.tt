@@ -1,0 +1,48 @@
+[% WRAPPER wrapper.tt %]
+<section id="the-team">
+  <div class="container">
+    <ul class="members">
+      <li class="member">
+        <a href="https://metacpan.org/author/MSTROUT">
+          <div class="img mst"></div>
+          <span class="name">Matt T. Trout</span>
+          <em class="title">Project founder</em>
+        </a>
+        <p> Project founder and co-founder and Technical Director of <a href="http://www.shadowcat.co.uk/">Shadowcat Systems</a>. Matt can often be also seen at technical conferences talking enthusiastically about various things Perl.<br/>
+          <a href="https://metacpan.org/author/MSTROUT">CPAN</a> / 
+          <a href="http://www.shadowcat.co.uk/blog/matt-s-trout">Blog</a> / 
+          <a href="mailto:m.trout@shadowcat.co.uk">Contact</a>
+        </p>
+      </li>
+      <li class="member">
+        <a href="https://metacpan.org/author/RIBASUSHI">
+          <div class="img riba"></div>
+          <span class="name">Peter Rabittson</span>
+          <em class="title">Current chainsaw</em>
+        </a>
+        <p>Current chainsaw delegate for the <var>0.08</var> series of DBIC releases.<br/>
+          <a href="https://metacpan.org/author/RIBASUSHI">CPAN</a>
+        </p>
+      </li>
+      <li class="member">
+        <a href="https://metacpan.org/author/JROBINSON">
+          <div class="img jess"></div>
+          <span class="name">Jess Robinson</span>
+          <em class="title">Chief documentator</em>
+        </a>
+        <p>Chief documentator and all round helper. Can be found at various Perl conferences.<br/>
+          <a href="http://desert-island.me.uk/~castaway/blog/">Blog</a> / 
+          <a href="mailto:castaway@desert-island.me.uk">Contact</a> / 
+          <a href="https://metacpan.org/author/JROBINSON">CPAN</a> / 
+          <a href="http://www.amazon.co.uk/wishlist/1FIXSGHCHX81H">Wishlist</a>
+        </p>
+      </li>
+    </ul>
+    <div class="details">
+      <h2>About the team</h2>
+      <p>The DBIx::Class project was founded by Matt S. Trout. Since its humble beginnings, many others have joined, contributed, de releases. Below is a non-exhaustive list. If you have contributed to the project, but are not listed below, this is not on purpose!</p>
+      <p>Contact us via any of the <a href="support.html">support channels</a> to have yourself added.</p>
+    </div>
+  </div>
+</section>
+[% END %]

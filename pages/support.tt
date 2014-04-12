@@ -1,0 +1,20 @@
+[% WRAPPER wrapper.tt %]
+<section id="support">
+  <div class="container">
+    <div class="data">
+      <h2>Commercial support</h2>
+      <p><a href="http://www.shadowcat.co.uk/" title="Shadowcat">Shadowcat systems</a> provide the DBIx::Class project with contributions in the form of code and hosting. Their team is highly experienced with DBIC and offer a <a href="http://www.shadowcat.co.uk/services/support/">consultancy service</a>.</p>
+
+      <br><br>
+
+      <h2>Community support</h2>
+      <p>There are a number of community support channels:</p>
+      <ul>
+        <li>The <a href="http://mibbit.com/chat/#dbix-class@irc.perl.org">#dbix-class</a> channel on <a href="http://www.irc.perl.org/faq.html">irc.perl.org</a></li>
+        <li>The <a href="http://lists.scsys.co.uk/mailman/listinfo/dbix-class">mailing list</a></li>
+        <li>The RT <a href="https://rt.cpan.org/Dist/Display.html?Queue=DBIx-Class">Bug Tracker</a></li>
+      </ul>
+    </div>
+  </div>
+</section>
+[% END %]

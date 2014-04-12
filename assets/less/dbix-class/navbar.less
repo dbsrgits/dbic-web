@@ -1,0 +1,47 @@
+.navbar {
+  position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: 50000;
+	&.navbar-custom {
+		.navbar-inner {
+			background-color: @darkGreenBlue;
+			background-image: none;
+			border: none;
+		}
+		.nav {
+			> li > a {
+				text-transform: uppercase;
+				text-shadow: none;
+				color: @lightGreenBlue;
+				&:hover {
+				  text-shadow: 0px 0px 10px rgba( 255,255,255,1);
+					color: white;
+				}
+				
+			}
+			.active > a {
+				background-color: transparent;
+				color: @white;
+				box-shadow: none;
+			}
+		}
+		.social {
+				a {
+				  width: 31px;
+					height: 31px;
+					display: inline-block;
+					margin: 4px 0;
+					opacity: 0.4;
+					border-radius: 31px;
+					&:hover{
+				    opacity: 0.9;
+						box-shadow: 0 0 10px 0 rgba( 255,255,255,1);
+					}
+				}
+				.twitter {
+				  background: url("../img/social_twitter.png") no-repeat center center;
+				}
+		}
+	}
+}
