@@ -11,6 +11,21 @@
       </thead>
       <tbody>
         <tr>
+          <td><a href="http://www.slideshare.net/davorg/database-programming-with-perl-and-dbixclass" title="Perl School: Database Programming with Perl and DBIx::Class">Perl School: Database Programming with Perl and DBIx::Class</a></td>
+          <td>Slides</td>
+          <td>July 01, 2014</td>
+        </tr>
+        <tr>
+          <td><a href="https://www.youtube.com/watch?v=63_MGcsXEzs" title="SQL for accountants: understanding the beast via SpreadSheets">SQL for accountants: understanding the beast via SpreadSheets</a></td>
+          <td>Video</td>
+          <td>June 24th, 2014</td>
+        </tr>
+        <tr>
+          <td><a href="https://www.youtube.com/watch?v=hUD1RMsYrjM" title="DBIx::Class - The Perl ORM">DBIx::Class - The Perl ORM</a> (<a href="https://frioux.github.io/yapcna-2014-dbic/">slides</a>)</td>
+          <td>Video and slides</td>
+          <td>June 24th, 2014</td>
+        </tr>
+        <tr>
           <td><a href="https://www.youtube.com/watch?v=Vm_NlfHNVvg" title="DBIx::Class the whirlwind overview">DBIx::Class the whirlwind overview</a></td>
           <td>Video</td>
           <td>June 22nd, 2012</td>
