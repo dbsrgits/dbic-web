@@ -1,12 +1,6 @@
 [% WRAPPER wrapper.tt %]
 <section id="about">
   <div class="container">
-    <div class="info">
-      <h3>WHAT IS <strong style="text-transform: none">DBIx::Class</strong> ?</h3>
-      <hr/>
-      <p>DBIx::Class (also known as DBIC) is an <strong>extensible</strong> and <strong>flexible</strong> Object/Relational Mapper (ORM) written in Perl. ORMs speed development, abstract data and make it 
-pole, allow you to represent your business rules through OO code and generate boilerplate code for CRUD operations.</p>
-    </div>
     <ul>
       <li>Write complex SQL queries in Perl code</li>
       <li><a href="https://metacpan.org/module/DBIx::Class::Manual::Intro#Using-DBIx::Class::Schema::Loader" title="Generate classes">Generate classes</a> from your database structure</li>
@@ -29,6 +23,11 @@ pole, allow you to represent your business rules through OO code and generate bo
         </div>
       </div>
       <span class="monkey"><span></span></span>
+    </div>
+    <div class="info">
+      <h3>WHAT IS <strong style="text-transform: none">DBIx::Class</strong> ?</h3>
+      <hr/>
+        <p>DBIx::Class (also known as DBIC) is an <strong>extensible</strong> and <strong>flexible</strong> Object/Relational Mapper (ORM) written in Perl. The advantage of using an ORM is to speed development, abstract data and make it pole the database. This allows you to represent your business rules through object orientated design and generate boilerplate code for CRUD operations.</p>
     </div>
   </div>
 </section>

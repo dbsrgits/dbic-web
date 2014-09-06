@@ -2,8 +2,7 @@
 <section id="documentation">
   <div class="container">
     <h1>Documentation</h1>
-    <p>The core documentation for DBIC can be found in POD, the standard for Perl documentation. This can be accessed through a 
-nu of channels, including the perldoc utility and online on the CPAN website.</p>
+    <p>The core documentation for DBIC can be found in POD, the standard for Perl documentation. This can be accessed through a number of channels, including the perldoc utility and online on the CPAN website.</p>
     <ul>
       <li class="intro">
         <a href="https://metacpan.org/module/DBIx::Class" title="Introduction">

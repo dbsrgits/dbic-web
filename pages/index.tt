@@ -1,5 +1,73 @@
-[% WRAPPER wrapper.tt %]  
-  <section id="home">
-    <div class="container"></div>
-  </section>
+[% WRAPPER wrapper.tt bx_slider = 1 %]  
+  <div class="fullscreen-controls">
+      <a class="img-prev"></a>
+      <a class="img-next"></a>
+  </div>
+
+  <header id="home" style="height: 270px; max-height: 270px;">
+      <div id="maximage">
+          <img src="assets/img/front/blue.jpg" alt="a colour background for dbic"/>
+          <img src="assets/img/front/orange.jpg" alt="a colour background for dbic" />
+          <img src="assets/img/front/purple.jpg" alt="a colour background for dbic" />
+      </div>
+
+      <div class="fullscreen-controls" style="transform: translateY(0px); opacity: 1;">
+          <div class="pattern" style="height: 270px; max-height: 270px;"></div>
+          <div class="home-wrapper" style="transform: translateY(0px); opacity: 1;">
+              <div >
+                  <h1 class="logo">
+                  <img class="logoimage" alt="Dbic logo" src="assets/img/front/dbic-1000.png">
+                  </h1>
+              </div>
+
+              <div id="home-slider">
+
+                  <div class="bx-wrapper" style="max-width: 100%; margin: 0px auto; background: none;">
+                      <div class="bx-viewport" style="width: 100%; overflow: hidden; position: relative; height: 98px; background: none;">
+                          <ul class="bxslider" style="width: 515%; position: relative; transition-duration: 3s; transform: translate3d(-1337px, 0px, 0px); background: none;">
+                              <li>
+                                  <a href="https://metacpan.org/release/DBIx-Class"><h1 style="font-size: 190%; color: #393939; padding: 0px 25px;">Click here to download the latest version</h1></a>
+                              </li>
+                              <li>
+                                  <a href="http://www.enlightenedperl.org"><h1 style="font-size: 190%; color: #393939; padding: 0px 25px;">Written in Perl</h1></a>
+                              </li>
+                              <li>
+                                  <a href="http://www.perlfoundation.org"><h1 style="font-size: 190%; color: #393939; padding: 0px 25px;">Unleash your Database</h1></a>
+                              </li>
+                          </ul>
+                      </div>
+                  </div>
+              </div>
+
+          </div>
+  </header>
+  <script type="text/javascript" charset="utf-8">
+      jQuery(function(){
+          jQuery('#maximage').maximage({
+              cycleOptions: {
+                  fx:'fade',
+                  speed: 1500,
+                  timeout: 4000,
+                  prev: '#arrow_left',
+                  next: '#arrow_right'
+              },
+              onFirstImageLoaded: function(){
+                  jQuery('#cycle-loader').hide();
+                  jQuery('#maximage').fadeIn('fast');
+              }
+          });
+      });
+  </script>
+
+  <script type="text/javascript" charset="utf-8">
+      jQuery(document).ready(function(){
+          jQuery('.bxslider').bxSlider({
+              mode: 'horizontal',
+              pager: false,
+              controls: false,
+              auto: true,
+              autoHover: true
+          });
+      });
+  </script>
 [% END %]
