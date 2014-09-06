@@ -2,11 +2,6 @@
 <section id="support">
   <div class="container">
     <div class="data">
-      <h2>Commercial support</h2>
-      <p><a href="http://www.shadowcat.co.uk/" title="Shadowcat">Shadowcat systems</a> provide the DBIx::Class project with contributions in the form of code and hosting. Their team is highly experienced with DBIC and offer a <a href="http://www.shadowcat.co.uk/services/support/">consultancy service</a>.</p>
-
-      <br><br>
-
       <h2>Community support</h2>
       <p>There are a number of community support channels:</p>
       <ul>
@@ -14,6 +9,17 @@
         <li>The <a href="http://lists.scsys.co.uk/mailman/listinfo/dbix-class">mailing list</a></li>
         <li>The RT <a href="https://rt.cpan.org/Dist/Display.html?Queue=DBIx-Class">Bug Tracker</a></li>
       </ul>
+
+      <br><br>
+
+      <h2>Commercial support</h2>
+      <p><a href="http://www.shadowcat.co.uk/" title="Shadowcat">Shadowcat systems</a> provide the DBIx::Class project with contributions in the form of code and hosting.<br />
+      Their team is highly experienced with DBIC and offer a <a href="http://www.shadowcat.co.uk/services/support/">consultancy service</a>.</p>
+
+       <br><br>
+
+       <p>Do you offer support or consultancy on DBIx::Class. <br />Would you like to be listed on this page? <br />Contact us via any of the <a href="support.html">support channels</a> to have yourself added.</p>
+
     </div>
   </div>
 </section>
